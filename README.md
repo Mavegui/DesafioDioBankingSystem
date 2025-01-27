@@ -66,19 +66,19 @@ Para executar o projeto, você precisará de:
 - **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/sistema-bancario-dio.git
+https://github.com/Mavegui/DesafioDioBankingSystem.git
 ```
 
 - **Navegue até a pasta do projeto:**
 
 ```bash
-cd sistema-bancario-dio
+cd DesafioDioBankingSystem
 ```
 
 - **Execute o programa:**
 
 ```bash
-python main.py
+python3 DesafioBankingSystem.py
 ```
 
 --- 
@@ -133,4 +133,4 @@ python main.py
 
 ## **✍️ Autor**
 
-- Guilherme Feitosa | Software Engineer | Desenvolvedor Back-End
+### Guilherme Feitosa | Software Engineer | Desenvolvedor Back-End
