@@ -26,29 +26,24 @@ Além disso, o projeto foi ampliado com recursos extras, como:
 O sistema bancário possui as seguintes funcionalidades:
 
 1. Login com autenticação:
-
-    -O cliente acessa sua conta informando **agência**, **número da conta** e **senha**.
+    - O cliente acessa sua conta informando **agência**, **número da conta** e **senha**.
 
 2. Depósito:
-
-    -Aceita apenas valores positivos.
-    -Atualiza o saldo e registra a transação com data e hora.
+    - Aceita apenas valores positivos.
+    - Atualiza o saldo e registra a transação com data e hora.
 
 3. Saque:
-
-    -Limite máximo de saque por transação: R$500.00.
-    -Máximo de 3 saques diários.
-    -Registra a transação com data e hora.
+    - Limite máximo de saque por transação: R$500.00.
+    - Máximo de 3 saques diários.
+    - Registra a transação com data e hora.
 
 4. Extrato:
-
-    -Exibe o nome do cliente, agência, conta, e a data de emissão do extrato.
-    -Lista todas as transações realizadas (depósitos e saques), incluindo data e hora.
-    -Mostra o saldo final da conta no rodapé.
+    - Exibe o nome do cliente, agência, conta, e a data de emissão do extrato.
+    - Lista todas as transações realizadas (depósitos e saques), incluindo data e hora.
+    - Mostra o saldo final da conta no rodapé.
 
 5. Mensagens amigáveis:
-
-    -O sistema informa claramente o status de cada operação, incluindo erros como saldo insuficiente ou limite de saques atingido.
+    - O sistema informa claramente o status de cada operação, incluindo erros como saldo insuficiente ou limite de saques atingido.
 
 ---
 
@@ -56,8 +51,8 @@ O sistema bancário possui as seguintes funcionalidades:
 
 Para executar o projeto, você precisará de:
 
--**Python 3.8 ou superior** instalado no seu sistema.
--Um terminal ou IDE (como **VSCode**, **PyCharm** ou **Jupyter Notebook**) para executar o código.
+- **Python 3.8 ou superior** instalado no seu sistema.
+- Um terminal ou IDE (como **VSCode**, **PyCharm** ou **Jupyter Notebook**) para executar o código.
 
 ---
 
@@ -87,8 +82,8 @@ python3 DesafioBankingSystem.py
 
 1. **Login**
 
-    -Informe sua agência, conta e senha cadastrados.
-    -Exemplo de usuários:
+    - Informe sua agência, conta e senha cadastrados.
+    - Exemplo de usuários:
     ```bash
     usuarios = [
         Usuario("Gui", "0001", "12345-6", "1234"),
@@ -98,16 +93,16 @@ python3 DesafioBankingSystem.py
 
 2. **Depósito**
 
-    -Digite o valor desejado para depósito.
-    -Exemplo de saída:
+    - Digite o valor desejado para depósito.
+    - Exemplo de saída:
     ```bash
     Digite o valor do depósito: 200
     Depósito de R$ 200.00 realizado com sucesso!
     ```
 3. **Saque**
 
-    -Insira o valor para saque (respeitando o limite de R$500.00 e o saldo disponível).
-    -Exemplo de saída:
+    - Insira o valor para saque (respeitando o limite de R$500.00 e o saldo disponível).
+    - Exemplo de saída:
     ```bash
     Digite o valor do saque: 100
     Saque de R$ 100.00 realizado com sucesso!
@@ -115,7 +110,7 @@ python3 DesafioBankingSystem.py
 
 4. **Extrato**
 
-   -Visualize o extrato completo:
+   - Visualize o extrato completo:
    ```bash
    ================== EXTRATO ==================
    Cliente: Gui
@@ -133,4 +128,5 @@ python3 DesafioBankingSystem.py
 
 ## **✍️ Autor**
 
-### Guilherme Feitosa | Software Engineer | Desenvolvedor Back-End
+- **Guilherme Feitosa | [Portfólio](https://www.porfoliogui.com.br/)**
+
