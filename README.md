@@ -1,7 +1,7 @@
 # **Desafio DIO | Sistema Bancário em Python 🏦**
 
 Este repositório contém o desafio proposto pela **Digital Innovation One (DIO)** em parceria com a **Vivo**, no bootcamp "**Coding The Future Vivo - Python AI Backend Developer**".
-O objetivo do projeto é criar um **sistema bancário** funcional com as operações básicas: saque, depósito e extrato, seguindo os requisitos mínimos definidos.
+O objetivo do projeto é criar um **sistema bancário** funcional utilizando as práticas de Programação Orientada a Objetos.
 
 ---
 
@@ -9,14 +9,12 @@ O objetivo do projeto é criar um **sistema bancário** funcional com as operaç
 
 O desafio tem como foco consolidar os conhecimentos adquiridos durante o bootcamp. Ele engloba a implementação prática de:
 
-- **Estruturação do código** em Python.
-- **Uso de operadores** e manipulação de strings.
-- **Estruturas condicionais e de repetição**.
-- **Trabalhando com listas em Python**.
-- **Conhecendo tuplas em Python**.
-- **Explorando conjuntos em Python**.
-- **Aprendendo utilizar dicionários em Python**.
-- **Dominando funções Python**.
+- **Introdução à Programação Orientada a Objetos (POO)** em Python.
+- **Aprendendo o Conceito de Herança**.
+- **Aplicando Encapsulamento**.
+- **Conhecendo Polimorfismo**.
+- **Interfaces e  Classes Abstratas**.
+- **Modelando o Sistema Bancário em POO com Python**.
 
 Além disso, o projeto foi ampliado com recursos extras, como:
 
@@ -24,6 +22,7 @@ Além disso, o projeto foi ampliado com recursos extras, como:
 - **Documentação do Código:** Código bem comentado, explicando cada etapa e funcionalidade.
 - **Uso da biblioteca datetime:** Para registrar a data e hora de todas as transações e extratos.
 - **Uso da biblioteca re:** Para realizar validação de entrada de dados em endereço.
+- **Uso da biblioteca ABC:** Biblioteca para trabalhar com classes abstratas em Python.
 
 ---
 
@@ -39,12 +38,12 @@ O sistema bancário possui as seguintes funcionalidades:
 
 3. Depósito:
     - Aceita apenas valores positivos.
-    - Atualiza o saldo e registra a transação com data e hora.
+    - Atualiza o saldo e registra no histórico da transação.
 
 4. Saque:
     - Limite máximo de saque por transação: R$500.00.
     - Máximo de 3 saques diários.
-    - Registra a transação com data e hora.
+    - Registra a transação no histórico.
 
 5. Extrato:
     - Exibe o nome do cliente, agência, conta, e a data de emissão do extrato.
@@ -127,12 +126,14 @@ python3 DesafioBankingSystem.py
     === Acesso ao Sistema Bancário ===
     Informe seu CPF: 12345678911
 
-    Selecione uma conta para acessar:
-    [1] Agência: 0001 | Conta: 1
+    Contas encontradas:
+    Agência: 0001 | Conta: 1
 
-    Digite o número da conta desejada: 1
+    Informe a Agência: 0001
 
-    Digite a senha de 4 dígitos para acessar a conta: 1234
+    Informe o Número da conta: 1
+
+    Informe sua Senha de 4 dígitos: 1234
 
     Login realizado com sucesso! Bem-vindo, Gui Feitosa.
     ```
