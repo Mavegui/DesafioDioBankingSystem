@@ -69,7 +69,7 @@ Para executar o projeto, você precisará de:
 - **Clone o repositório:**
 
 ```bash
-https://github.com/Mavegui/DesafioDioBankingSystem.git
+https://github.com/Mavegui/DesafioDioBankingSystem/tree/DesafioBankingSystem_Version1.1
 ```
 
 - **Navegue até a pasta do projeto:**
