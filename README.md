@@ -60,7 +60,7 @@ O sistema bancário possui as seguintes funcionalidades:
 Para executar o projeto, você precisará de:
 
 - **Python 3.8 ou superior** instalado no seu sistema.
-- Um terminal ou IDE (como **VSCode**, **PyCharm** ou **Jupyter Notebook**) para executar o código.
+- Um terminal ou IDE (como **VSCode**).
 
 ---
 
@@ -69,7 +69,7 @@ Para executar o projeto, você precisará de:
 - **Clone o repositório:**
 
 ```bash
-https://github.com/Mavegui/DesafioDioBankingSystem.git
+git clone https://github.com/Mavegui/DesafioDioBankingSystem.git
 ```
 
 - **Navegue até a pasta do projeto:**
